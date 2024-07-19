@@ -13,10 +13,10 @@ export default function CustomCheckbox({
         <>
             <div
                 onClick={onChange}
-                className={`w-[25px] h-[25px] group flex justify-center items-center cursor-pointer bg-white rounded-md ring-transparent border border-[#E3E3E3] hover:ring-0 active:ring active:ring-offset-[3px] active:ring-offset-[#5087F8]/10 ${
+                className={`w-[25px] h-[25px] group flex justify-center items-center cursor-pointer rounded-md ring-transparent border border-[#E3E3E3] hover:ring-0 active:ring active:ring-offset-[3px] active:ring-offset-[#5087F8]/10 ${
                     isSelected
                         ? "bg-[#2469F6] !border-[#2469F6] hover:bg-[#5087F8] hover:!border-[#5087F8] active:bg-[#2469F6] active:!border-[#2469F6]"
-                        : null
+                        : ``
                 }`}
             >
                 <svg

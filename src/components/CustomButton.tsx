@@ -1,3 +1,5 @@
+"use client";
+
 interface CustomButtonProps {
     children?: React.ReactNode;
     handleButtonClick?: () => any;
